@@ -19,11 +19,15 @@ public:
 		head = nullptr;
 		valid = true;
 	}
+	AST(st) {
+		head = nullptr;
+		valid = true;
+	}
+
 	
 	bool valid() {
 		return valid;
 	}
-	
 	
 };
 
